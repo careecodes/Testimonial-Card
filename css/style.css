@@ -4,7 +4,6 @@ body {
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif;
   min-height: 100vh;
-
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -13,6 +12,32 @@ body {
 * {
   box-sizing: border-box;
 }
+
+body {
+  background-image: linear-gradient(to bottom, #f9fafb, #d2d6db);
+}
+
+.card {
+  margin-top: 200px;
+  padding: 24px;
+  max-width: 355px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px -1px rgb(0 0 0 / 0.10);
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #525252;
+}
+
+.profile-thumbnail {
+  height: 48px;
+  width: 48px;
+}
+
+
+
 
 .credits {
   color: #777;
